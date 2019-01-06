@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  channelsView.swift
 //  TV Rehberim
 //
 //  Created by Nevzat BOZKURT on 6.01.2019.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class channelsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
+    
+    }
+  
 
 }
-

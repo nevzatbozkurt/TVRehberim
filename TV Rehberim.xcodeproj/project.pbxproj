@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F70D1B1AF84CE156129BEE7 /* Pods_TV_Rehberim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3445AF68B2350D7087383 /* Pods_TV_Rehberim.framework */; };
 		F278E96421E2675100C7425E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E96321E2675100C7425E /* AppDelegate.swift */; };
-		F278E96621E2675100C7425E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E96521E2675100C7425E /* FirstViewController.swift */; };
-		F278E96821E2675100C7425E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E96721E2675100C7425E /* SecondViewController.swift */; };
 		F278E96B21E2675100C7425E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F278E96921E2675100C7425E /* Main.storyboard */; };
 		F278E96D21E2676600C7425E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F278E96C21E2676600C7425E /* Assets.xcassets */; };
 		F278E97021E2676600C7425E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F278E96E21E2676600C7425E /* LaunchScreen.storyboard */; };
+		F278E97821E2759B00C7425E /* channelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E97721E2759B00C7425E /* channelsVC.swift */; };
+		F278E97E21E27CA900C7425E /* channelsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E97D21E27CA900C7425E /* channelsCVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39A060A003F9941900472F9C /* Pods-TV Rehberim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV Rehberim.release.xcconfig"; path = "Pods/Target Support Files/Pods-TV Rehberim/Pods-TV Rehberim.release.xcconfig"; sourceTree = "<group>"; };
+		76C3272A45AC6EB257865157 /* Pods-TV Rehberim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV Rehberim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TV Rehberim/Pods-TV Rehberim.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3445AF68B2350D7087383 /* Pods_TV_Rehberim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TV_Rehberim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F278E96021E2675100C7425E /* TV Rehberim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Rehberim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F278E96321E2675100C7425E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F278E96521E2675100C7425E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F278E96721E2675100C7425E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F278E96A21E2675100C7425E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F278E96C21E2676600C7425E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F278E96F21E2676600C7425E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F278E97121E2676600C7425E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F278E97721E2759B00C7425E /* channelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelsVC.swift; sourceTree = "<group>"; };
+		F278E97D21E27CA900C7425E /* channelsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelsCVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F70D1B1AF84CE156129BEE7 /* Pods_TV_Rehberim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48BDFD2D0DA22D7592F58296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76C3272A45AC6EB257865157 /* Pods-TV Rehberim.debug.xcconfig */,
+				39A060A003F9941900472F9C /* Pods-TV Rehberim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEF551D4453DDF04AEB3AE2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3445AF68B2350D7087383 /* Pods_TV_Rehberim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F278E95721E2675000C7425E = {
 			isa = PBXGroup;
 			children = (
 				F278E96221E2675100C7425E /* TV Rehberim */,
 				F278E96121E2675100C7425E /* Products */,
+				48BDFD2D0DA22D7592F58296 /* Pods */,
+				BEF551D4453DDF04AEB3AE2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +81,22 @@
 			isa = PBXGroup;
 			children = (
 				F278E96321E2675100C7425E /* AppDelegate.swift */,
-				F278E96521E2675100C7425E /* FirstViewController.swift */,
-				F278E96721E2675100C7425E /* SecondViewController.swift */,
 				F278E96921E2675100C7425E /* Main.storyboard */,
+				F278E97C21E27B8400C7425E /* Channels */,
 				F278E96C21E2676600C7425E /* Assets.xcassets */,
 				F278E96E21E2676600C7425E /* LaunchScreen.storyboard */,
 				F278E97121E2676600C7425E /* Info.plist */,
 			);
 			path = "TV Rehberim";
+			sourceTree = "<group>";
+		};
+		F278E97C21E27B8400C7425E /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				F278E97721E2759B00C7425E /* channelsVC.swift */,
+				F278E97D21E27CA900C7425E /* channelsCVC.swift */,
+			);
+			path = Channels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F278E97421E2676700C7425E /* Build configuration list for PBXNativeTarget "TV Rehberim" */;
 			buildPhases = (
+				9A830A515BCBAF6C5DC079CE /* [CP] Check Pods Manifest.lock */,
 				F278E95C21E2675100C7425E /* Sources */,
 				F278E95D21E2675100C7425E /* Frameworks */,
 				F278E95E21E2675100C7425E /* Resources */,
+				0F39FC947257F0F6FC0B9187 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +167,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F39FC947257F0F6FC0B9187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TV Rehberim/Pods-TV Rehberim-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TV Rehberim/Pods-TV Rehberim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A830A515BCBAF6C5DC079CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TV Rehberim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F278E95C21E2675100C7425E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F278E96821E2675100C7425E /* SecondViewController.swift in Sources */,
+				F278E97821E2759B00C7425E /* channelsVC.swift in Sources */,
+				F278E97E21E27CA900C7425E /* channelsCVC.swift in Sources */,
 				F278E96421E2675100C7425E /* AppDelegate.swift in Sources */,
-				F278E96621E2675100C7425E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +361,13 @@
 		};
 		F278E97521E2676700C7425E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C3272A45AC6EB257865157 /* Pods-TV Rehberim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89TMSY79N6;
 				INFOPLIST_FILE = "TV Rehberim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +381,13 @@
 		};
 		F278E97621E2676700C7425E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A060A003F9941900472F9C /* Pods-TV Rehberim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89TMSY79N6;
 				INFOPLIST_FILE = "TV Rehberim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
