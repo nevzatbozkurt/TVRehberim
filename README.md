@@ -2,4 +2,4 @@
 TV Rehberim with UIKit
 
 
-![hustlin_erd](preview.pdf)
+![hustlin_erd](https://github.com/bozkurtnevzat/TVRehberim/blob/master/preview.pdf)
