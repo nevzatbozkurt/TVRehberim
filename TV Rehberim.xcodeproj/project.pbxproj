@@ -8,18 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		3F70D1B1AF84CE156129BEE7 /* Pods_TV_Rehberim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3445AF68B2350D7087383 /* Pods_TV_Rehberim.framework */; };
+		F253310A21EFF2CD007B7BEC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F253310921EFF2CD007B7BEC /* SearchBar.swift */; };
+		F271BCAF21F3376900D8A974 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F271BCAE21F3376900D8A974 /* functions.swift */; };
 		F278E96421E2675100C7425E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E96321E2675100C7425E /* AppDelegate.swift */; };
 		F278E96B21E2675100C7425E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F278E96921E2675100C7425E /* Main.storyboard */; };
 		F278E96D21E2676600C7425E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F278E96C21E2676600C7425E /* Assets.xcassets */; };
 		F278E97021E2676600C7425E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F278E96E21E2676600C7425E /* LaunchScreen.storyboard */; };
 		F278E97821E2759B00C7425E /* channelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E97721E2759B00C7425E /* channelsVC.swift */; };
-		F278E97E21E27CA900C7425E /* channelsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E97D21E27CA900C7425E /* channelsCVC.swift */; };
+		F278E97E21E27CA900C7425E /* channelsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E97D21E27CA900C7425E /* channelsCVCell.swift */; };
+		F278E98021E2850E00C7425E /* jsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E97F21E2850E00C7425E /* jsonData.swift */; };
+		F278E98421E4AAD900C7425E /* categoryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278E98321E4AAD900C7425E /* categoryCVCell.swift */; };
+		F2B75B932201111800E42950 /* remindedProgrammeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B75B922201111800E42950 /* remindedProgrammeVC.swift */; };
+		F2B75B952202690500E42950 /* programmeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B75B942202690500E42950 /* programmeDetailVC.swift */; };
+		F2C81AFF22077F9B0008F983 /* moreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C81AFE22077F9B0008F983 /* moreVC.swift */; };
+		F2C81B022207A32F0008F983 /* aboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C81B012207A32F0008F983 /* aboutVC.swift */; };
+		F2EAFA3E2209766D0089F6F7 /* ViewControllerPannable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EAFA3D2209766D0089F6F7 /* ViewControllerPannable.swift */; };
+		F2F1832322CA5C5B00292E6D /* storeReviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F1832222CA5C5B00292E6D /* storeReviewHelper.swift */; };
+		F2F1832522CA643500292E6D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F1832422CA643500292E6D /* bg.png */; };
+		F2F6BB1421F143B700779E6C /* channelDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6BB1321F143B700779E6C /* channelDetailVC.swift */; };
+		F2F6BB1721F145B400779E6C /* channelTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6BB1621F145B400779E6C /* channelTVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39A060A003F9941900472F9C /* Pods-TV Rehberim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV Rehberim.release.xcconfig"; path = "Pods/Target Support Files/Pods-TV Rehberim/Pods-TV Rehberim.release.xcconfig"; sourceTree = "<group>"; };
 		76C3272A45AC6EB257865157 /* Pods-TV Rehberim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TV Rehberim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TV Rehberim/Pods-TV Rehberim.debug.xcconfig"; sourceTree = "<group>"; };
 		CBB3445AF68B2350D7087383 /* Pods_TV_Rehberim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TV_Rehberim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F253310921EFF2CD007B7BEC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F271BCAE21F3376900D8A974 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		F278E96021E2675100C7425E /* TV Rehberim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Rehberim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F278E96321E2675100C7425E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F278E96A21E2675100C7425E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,7 +42,19 @@
 		F278E96F21E2676600C7425E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F278E97121E2676600C7425E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F278E97721E2759B00C7425E /* channelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelsVC.swift; sourceTree = "<group>"; };
-		F278E97D21E27CA900C7425E /* channelsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelsCVC.swift; sourceTree = "<group>"; };
+		F278E97D21E27CA900C7425E /* channelsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelsCVCell.swift; sourceTree = "<group>"; };
+		F278E97F21E2850E00C7425E /* jsonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jsonData.swift; sourceTree = "<group>"; };
+		F278E98321E4AAD900C7425E /* categoryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryCVCell.swift; sourceTree = "<group>"; };
+		F2B75B922201111800E42950 /* remindedProgrammeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = remindedProgrammeVC.swift; sourceTree = "<group>"; };
+		F2B75B942202690500E42950 /* programmeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmeDetailVC.swift; sourceTree = "<group>"; };
+		F2C81AFE22077F9B0008F983 /* moreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreVC.swift; sourceTree = "<group>"; };
+		F2C81B012207A32F0008F983 /* aboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutVC.swift; sourceTree = "<group>"; };
+		F2EAFA3D2209766D0089F6F7 /* ViewControllerPannable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPannable.swift; sourceTree = "<group>"; };
+		F2F1832122CA285600292E6D /* TV_Rehberim-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TV_Rehberim-bridging-header.h"; sourceTree = "<group>"; };
+		F2F1832222CA5C5B00292E6D /* storeReviewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeReviewHelper.swift; sourceTree = "<group>"; };
+		F2F1832422CA643500292E6D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		F2F6BB1321F143B700779E6C /* channelDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelDetailVC.swift; sourceTree = "<group>"; };
+		F2F6BB1621F145B400779E6C /* channelTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelTVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +86,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F253310B21EFF2F5007B7BEC /* Class and Function */ = {
+			isa = PBXGroup;
+			children = (
+				F2F1832222CA5C5B00292E6D /* storeReviewHelper.swift */,
+				F2EAFA3D2209766D0089F6F7 /* ViewControllerPannable.swift */,
+				F278E97F21E2850E00C7425E /* jsonData.swift */,
+				F253310921EFF2CD007B7BEC /* SearchBar.swift */,
+				F271BCAE21F3376900D8A974 /* functions.swift */,
+			);
+			path = "Class and Function";
+			sourceTree = "<group>";
+		};
 		F278E95721E2675000C7425E = {
 			isa = PBXGroup;
 			children = (
@@ -80,23 +119,65 @@
 		F278E96221E2675100C7425E /* TV Rehberim */ = {
 			isa = PBXGroup;
 			children = (
-				F278E96321E2675100C7425E /* AppDelegate.swift */,
+				F2F1832422CA643500292E6D /* bg.png */,
 				F278E96921E2675100C7425E /* Main.storyboard */,
-				F278E97C21E27B8400C7425E /* Channels */,
+				F278E96321E2675100C7425E /* AppDelegate.swift */,
+				F253310B21EFF2F5007B7BEC /* Class and Function */,
+				F278E97C21E27B8400C7425E /* Channels View  */,
+				F2F6BB1521F143BE00779E6C /* Channel Detail View */,
+				F2B75B91220110F300E42950 /* Reminded Programme View  */,
+				F2B75B962202691B00E42950 /* Programme Detail Popup View  */,
+				F2C81B0022077FE50008F983 /* More */,
 				F278E96C21E2676600C7425E /* Assets.xcassets */,
 				F278E96E21E2676600C7425E /* LaunchScreen.storyboard */,
 				F278E97121E2676600C7425E /* Info.plist */,
+				F2F1832122CA285600292E6D /* TV_Rehberim-bridging-header.h */,
 			);
 			path = "TV Rehberim";
 			sourceTree = "<group>";
 		};
-		F278E97C21E27B8400C7425E /* Channels */ = {
+		F278E97C21E27B8400C7425E /* Channels View  */ = {
 			isa = PBXGroup;
 			children = (
 				F278E97721E2759B00C7425E /* channelsVC.swift */,
-				F278E97D21E27CA900C7425E /* channelsCVC.swift */,
+				F278E97D21E27CA900C7425E /* channelsCVCell.swift */,
+				F278E98321E4AAD900C7425E /* categoryCVCell.swift */,
 			);
-			path = Channels;
+			path = "Channels View ";
+			sourceTree = "<group>";
+		};
+		F2B75B91220110F300E42950 /* Reminded Programme View  */ = {
+			isa = PBXGroup;
+			children = (
+				F2B75B922201111800E42950 /* remindedProgrammeVC.swift */,
+			);
+			path = "Reminded Programme View ";
+			sourceTree = "<group>";
+		};
+		F2B75B962202691B00E42950 /* Programme Detail Popup View  */ = {
+			isa = PBXGroup;
+			children = (
+				F2B75B942202690500E42950 /* programmeDetailVC.swift */,
+			);
+			path = "Programme Detail Popup View ";
+			sourceTree = "<group>";
+		};
+		F2C81B0022077FE50008F983 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				F2C81AFE22077F9B0008F983 /* moreVC.swift */,
+				F2C81B012207A32F0008F983 /* aboutVC.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		F2F6BB1521F143BE00779E6C /* Channel Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				F2F6BB1321F143B700779E6C /* channelDetailVC.swift */,
+				F2F6BB1621F145B400779E6C /* channelTVCell.swift */,
+			);
+			path = "Channel Detail View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +214,7 @@
 				TargetAttributes = {
 					F278E95F21E2675100C7425E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -161,6 +243,7 @@
 			files = (
 				F278E97021E2676600C7425E /* LaunchScreen.storyboard in Resources */,
 				F278E96D21E2676600C7425E /* Assets.xcassets in Resources */,
+				F2F1832522CA643500292E6D /* bg.png in Resources */,
 				F278E96B21E2675100C7425E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,14 +259,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TV Rehberim/Pods-TV Rehberim-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -215,9 +302,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F278E98021E2850E00C7425E /* jsonData.swift in Sources */,
+				F2F6BB1721F145B400779E6C /* channelTVCell.swift in Sources */,
 				F278E97821E2759B00C7425E /* channelsVC.swift in Sources */,
-				F278E97E21E27CA900C7425E /* channelsCVC.swift in Sources */,
+				F2EAFA3E2209766D0089F6F7 /* ViewControllerPannable.swift in Sources */,
+				F2B75B932201111800E42950 /* remindedProgrammeVC.swift in Sources */,
+				F271BCAF21F3376900D8A974 /* functions.swift in Sources */,
+				F2F6BB1421F143B700779E6C /* channelDetailVC.swift in Sources */,
+				F278E97E21E27CA900C7425E /* channelsCVCell.swift in Sources */,
+				F2C81AFF22077F9B0008F983 /* moreVC.swift in Sources */,
+				F2F1832322CA5C5B00292E6D /* storeReviewHelper.swift in Sources */,
+				F2B75B952202690500E42950 /* programmeDetailVC.swift in Sources */,
+				F278E98421E4AAD900C7425E /* categoryCVCell.swift in Sources */,
 				F278E96421E2675100C7425E /* AppDelegate.swift in Sources */,
+				F2C81B022207A32F0008F983 /* aboutVC.swift in Sources */,
+				F253310A21EFF2CD007B7BEC /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +473,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nevzatbozkurt.TV-Rehberim";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "TV Rehberim/TV_Rehberim-bridging-header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -394,7 +494,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nevzatbozkurt.TV-Rehberim";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "TV Rehberim/TV_Rehberim-bridging-header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
